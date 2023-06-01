@@ -1,0 +1,36 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.hero-section {
+    background-image: url("images/lagos.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 720px;
+}
+
+.activity {
+    display: flex;
+    justify-content: center;
+}
+
+.activity-content {
+    margin: 5px 10px;
+    width: 200px;
+}
