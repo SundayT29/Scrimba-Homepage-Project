@@ -40,12 +40,20 @@ img {
     border-radius: 7px;
 }
 
+#head-2-div {
+    background-color: #457B9D;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+
 .head-2 {
     color: whitesmoke;
     display: inline;
-    background-color: #457B9D;
-    padding: 5px 10px;
-    border-radius: 5px;
+    align-items: center;
+}
+
+h3, p, h4 {
+    color: #1D3557;
 }
 
 .activity {
