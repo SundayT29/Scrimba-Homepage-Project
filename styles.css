@@ -11,6 +11,7 @@ DARK BLUE: #1D3557
 body {
     margin: 0;
     text-align: center;
+    text-shadow: 0 0 1px black;
 }
 
 img {
@@ -19,10 +20,32 @@ img {
 }
 
 .hero-section {
-    background-image: url("images/lagos.jpg");
+    background-image: url('images/lagos.jpg');
     background-size: cover;
-    width: 100%;
-    height: 720px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-text {
+    margin: 10px;
+}
+
+.head-1 {
+    color: whitesmoke;
+    display: inline;
+    background-color: #1D3557;
+    padding: 7px 12px;
+    border-radius: 7px;
+}
+
+.head-2 {
+    color: whitesmoke;
+    display: inline;
+    background-color: #457B9D;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 .activity {
