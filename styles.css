@@ -12,7 +12,7 @@ body {
     margin: 0;
     text-align: center;
     text-shadow: 0 0 1px black;
-}
+    }
 
 .img {
     width: 100px;
@@ -53,8 +53,13 @@ body {
     align-items: center;
 }
 
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 h3, p, h4 {
     color: #1D3557;
+    font-family: 'Inconsolata', monospace;
 }
 
 .activity-head {
@@ -85,14 +90,15 @@ a {
 .activity-content:hover {
     border: none;
     background-color: #A8DADC;
-    border: 1px solid black;
+    font-size: 1.05rem;
+    transition: all 0.5s ease;
 }
 
 #guide-section {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    margin: 5% 30%;
+    margin: 5% 20%;
     background-color: #457B9D;
     padding: 20px 10px;
     border-bottom: 5px solid black;
